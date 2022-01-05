@@ -6,6 +6,5 @@ mcstats.registry.append(
         {
             'unit': 'int',
         },
-        mcstats.StatReader(['minecraft:custom','minecraft:leave_game']),
-        1926 # stonecutters usable since 19w04a
+        mcstats.StatReader(['minecraft:custom','minecraft:leave_game'])
     ))
